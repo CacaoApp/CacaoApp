@@ -1,0 +1,96 @@
+@font-face {
+    font-family: HurryUp;
+    src: url(../assets/hurryup.ttf);
+ }
+
+ :root {
+   --cacao-orange-color:rgb(208,117,48);
+   --cacao-yellow-color:rgb(223,161,57);
+   --cacao-red-color:rgb(116,25,28);
+   --cacao-lime-color:rgb(130,139,46);
+   --cacao-green-color:rgb(48,80,38);
+   --cacao-dark-gray-color:rgb(64,64,64);
+   --cacao-light-gray-color:rgb(191,191,191);
+   --cacao-dark-skin-color:rgb(173,129,85);
+   --cacao-light-skin-color:rgb(204,153,102);   
+ }
+
+ .ft-hurry{
+    font-family: HurryUP; 
+ }
+
+ /*text colors*/
+
+ .ca-color-orange{
+    color: var(--cacao-orange-color);    
+ }
+
+ .ca-color-yellow{
+   color: var(--cacao-yellow-color);
+}
+
+.ca-color-red{
+   color: var(--cacao-red-color);
+}
+
+.ca-color-lime{
+   color: var(--cacao-lime-color);
+}
+
+.ca-color-green{
+   color: var(--cacao-green-color);
+}
+
+.ca-color-dark-gray{
+   color: var(--cacao-dark-gray-color);
+}
+
+.ca-color-light-gray{
+   color: var(--cacao-light-gray-color);
+}
+
+.ca-color-dark-skin{
+   color: var(--cacao-dark-skin-color);
+}
+
+.ca-color-light-skin{
+   color: var(--cacao-light-skin-color);
+}
+
+/*background colors*/
+
+.ca-bg-color-orange{
+   background-color: var(--cacao-orange-color);
+}
+
+.ca-bg-color-yellow{
+   background-color: var(--cacao-yellow-color);   
+}
+
+.ca-bg-color-red{
+   background-color: var(--cacao-red-color);
+}
+
+.ca-bg-color-lime{
+   background-color: var(--cacao-lime-color);
+}
+
+.ca-bg-color-green{
+   background-color: var(--cacao-green-color);
+}
+
+.ca-bg-color-dark-gray{
+   background-color: var(--cacao-dark-gray-color);
+}
+
+.ca-bg-color-light-gray{
+   background-color: var(--cacao-light-gray-color);
+}
+
+.ca-bg-color-dark-skin{
+   background-color: var(--cacao-dark-skin-color);
+}
+
+.ca-bg-color-light-skin{
+   background-color: var(--cacao-light-skin-color);
+}

@@ -1,0 +1,230 @@
+{
+  "grupos": {
+    "Coate": {
+      "cantidadCacaos": 10000,
+      "cantidadPuntos": 15600,
+      "nombre": "Coate"
+    },
+    "Huitzilin": {
+      "cantidadCacaos": 10000,
+      "cantidadPuntos": 15800,
+      "nombre": "Huitzilin"
+    },
+    "Mazate": {
+      "cantidadCacaos": 9200,
+      "cantidadPuntos": 15000,
+      "nombre": "Mazate"
+    },
+    "Michín": {
+      "cantidadCacaos": 9200,
+      "cantidadPuntos": 15600,
+      "nombre": "Michín"
+    }
+  },
+  "retos": {
+    "-KYp7XSr_xabU1Zdhjj-": {
+      "descripcionCompleta": "\"Parte 1: Construcción de una visión de futuro Haciendo uso de la lectura disponible en moodle (HBR - How Smart Connected Products Are Transforming Competition), cada uno de ustedes debe construir en un rango de 500 a 600 palabras una opinión acerca de la importancia de “Internet of Things” en la industria en la cual se desempeña dejando ver algunas de las visiones futuras que usted considera podría materializarse en el futuro en el contexto Colombiano.  El resultado debe ser publicado en el foro (Reto 1 - Internet of Things) usando el botón \"Añadir un nuevo tema de discusión\".  Parte 2: Aporte a una visión externa Usando como referencia por lo menos una de las charlas disponibles en (La visión de \"Internet of things\" en manos de expertos), cada uno de ustedes debe realizar un comentario que aporte a por lo menos una de las opiniones de alguno de sus compañeros de foro (Reto 1 - Internet of Things). (se ingresa en la opinión y se presiona el responder ubicado en la parte inferior derecha)\"",
+      "descripcionCorta": "Construcción de una visión de futuro",
+      "id": "reto1",
+      "nombre": "Reto Internet de las Cosas",
+      "premioCacao": 500,
+      "premioPuntos": 3000
+    }
+  },
+  "usuarios": {
+    "4u4tey6q08cX6k57tOBrgdFUVK42": {
+      "email": "mcbet@icesi.edu.co",
+      "grupo": "Ocelote",
+      "rol": "admin",
+      "username": "Mcbet"
+    },
+    "bNVQ7zg82IMA5KhqrmN1Syyn5R93": {
+      "email": "jamoncada@icesi.edu.co",
+      "grupo": "Mazate",
+      "rol": "admin",
+      "username": "Monk"
+    }
+  },
+  "estudiantes": {
+    "A00357815": {
+      "nombres": "LINA MARÍA",
+      "apellidos": "AGUILAR LEMOS",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00357815",
+      "email": "linitag24@hotmail.com",
+      "documento": "1144029098"
+    },
+    "A00078572": {
+      "nombres": "CARLA VICTORIA",
+      "apellidos": "BAENA RESTREPO",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00078572",
+      "email": "carla.baena@gmail.com",
+      "documento": "29567725"
+    },
+    "A00357509": {
+      "nombres": "HABIB SALIM",
+      "apellidos": "BARHOUM FARAI",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00357509",
+      "email": "ortohaba@hotmail.com",
+      "documento": "16784447"
+    },
+    "A00149856": {
+      "nombres": "JOHANNA LORENA",
+      "apellidos": "BETANCOURT RAMÍREZ",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00149856",
+      "email": "johanna_net@hotmail.com",
+      "documento": "38790671"
+    },
+    "A00358579": {
+      "nombres": "SANDRA PATRICIA",
+      "apellidos": "CARDENAS AGUDELO",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00358579",
+      "email": "spcardenas@ladrilleramelendez.com.co",
+      "documento": "66903211"
+    },
+    "A00255468": {
+      "nombres": "NICOLL ",
+      "apellidos": "ESGUERRA SERNA",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00255468",
+      "email": "nicollesguerra93@hotmail.com",
+      "documento": "1144062469"
+    },
+    "A00355975": {
+      "nombres": "DANIEL ",
+      "apellidos": "GÓMEZ AFANADOR",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00355975",
+      "email": "danielgomez2008@hotmail.com",
+      "documento": "1107057622"
+    },
+    "A00357561": {
+      "nombres": "MARÍA FERNANDA",
+      "apellidos": "GUERRERO CALERO",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00357561",
+      "email": "mariafguerreroc@gmail.com",
+      "documento": "1130622789"
+    },
+    "A00357466": {
+      "nombres": "ANTONIO JOSE",
+      "apellidos": "HENAO ALUMA",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00357466",
+      "email": "Antonio.henao@hotmail.com",
+      "documento": "1113657013"
+    },
+    "A00332596": {
+      "nombres": "SANDRA MILENA",
+      "apellidos": "MÁRQUEZ CASTRILLÓN",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00332596",
+      "email": "sandrammarquez@hotmail.com",
+      "documento": "29117521"
+    },
+    "A00089776": {
+      "nombres": "YUDY ALEXANDRA",
+      "apellidos": "MONTENEGRO HOYOS",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00089776",
+      "email": "montenegrito2009@gmail.com",
+      "documento": "48600470"
+    },
+    "A00301504": {
+      "nombres": "DIEGO FERNANDO",
+      "apellidos": "OROZCO AGREDO",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00301504",
+      "email": "diegofdoorozcoa@gmail.com",
+      "documento": "1130612822"
+    },
+    "A00357903": {
+      "nombres": "JUAN PABLO",
+      "apellidos": "PEREZ GARCIA",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00357903",
+      "email": "yeipi10@yahoo.es",
+      "documento": "14622618"
+    },
+    "A00357503": {
+      "nombres": "EDUARDO ",
+      "apellidos": "POSSO GARCIA",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00357503",
+      "email": "eduardo.posso.g@gmail.com",
+      "documento": "16210700"
+    },
+    "A00062636": {
+      "nombres": "ANA CAROLINA",
+      "apellidos": "QUINTERO GOMEZ",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00062636",
+      "email": "carofrma@hotmail.com",
+      "documento": "38681564"
+    },
+    "A00255680": {
+      "nombres": "JOHANNA ",
+      "apellidos": "SAENZ BOLIVAR",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00255680",
+      "email": "joha260691@hotmail.com",
+      "documento": "1144047949"
+    },
+    "A00098172": {
+      "nombres": "JUAN MANUEL",
+      "apellidos": "SARRIA JIMÉNEZ",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00098172",
+      "email": "juan.sarria1@hotmail.com",
+      "documento": "94362443"
+    },
+    "A00251812": {
+      "nombres": "JUAN DAVID",
+      "apellidos": "SUÁREZ WAGNER",
+      "grupo": "Ocelote",
+      "logros": {},
+      "puntosIndividuales": "0",
+      "id": "A00251812",
+      "email": "davidsw3@hotmail.com",
+      "documento": "1144052263"
+    }
+  }
+}

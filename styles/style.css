@@ -1,0 +1,199 @@
+@font-face {
+    font-family: HurryUp;
+    src: url(../assets/hurryup.ttf);
+ }
+
+
+ .ft-hurry{
+    font-family: HurryUP; 
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+/*navigation menu*/
+
+nav {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;    
+}
+
+nav li {
+    margin: auto;
+    text-align: center;
+    height: 20px;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a :hover {
+    color: orange;
+}
+
+/*Footer*/  
+
+.main_footer {
+    color: white;
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/*style for warriors*/
+
+#list_warriors {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.warrior_item_list {
+    background-color:white;
+    margin: 5px;
+    display: flex;       
+    line-height: 30px;
+    padding: 5px;            
+}
+
+.warrior_item_list div{
+    width: 100%;
+    text-align: center;
+}
+
+.warrior_item_list img{            
+    width: 30px;
+    vertical-align: middle;
+}
+
+/*global*/
+
+h1{
+    font-size: 5em;
+    font-family: HurryUp, sans-serif;
+    margin: 2em;  
+}
+
+
+h3{
+    font-size: 3em;
+    font-family: HurryUp, sans-serif;
+    margin: 2em;  
+}
+
+/*Styles for rules*/
+
+h2{
+    font-size: 4em;
+    font-family: HurryUp, sans-serif;
+    margin: 2em;  
+}
+
+.rules_sections{
+    border-style: solid;
+    width: 100%;
+   /* background-color: rgb(241, 219, 15);
+    display: flex;
+    flex-wrap: wrap;*/
+}
+
+.rules_section_container{
+    width: 90%;
+    margin: auto;
+}
+
+
+.rules_sections h3{
+    margin-top: 0;
+    padding-left: 1em;
+    background-color: black;
+    color: white;
+}
+
+
+/*jugador*/
+
+#seccion_jugador{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;    
+}
+
+.contenedor_tarjeta_usuario{
+    width: 80%;    
+    margin: auto;
+}
+
+#contenedor_imagen_usuario{
+    background-color: #CCC;
+    flex-grow: 1;
+    padding: 1em;    
+}
+#meta_contenedor_informacion_usuario{
+    background-color: #333;
+    flex-grow: 9;
+    display: flex;    
+    flex-direction: column;   
+}
+
+#contenedor_fila_nombre{
+    width: 100%;
+}
+
+#contenedor_nombre_usuario{
+  /*  background-color: #00FFFF; */
+    padding: 1em;      
+    padding-bottom: 0px;
+    text-align: center;
+
+}
+#contenedor_apellido_usuario{
+   /* background-color: #00FFFF; */
+    padding: 1em;      
+    padding-top: 0px;
+    text-align: center;
+}
+
+#contenedor_estadisticas_usuario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+}
+
+#contenedor_puntos_usuario{
+   /*background-color: #FFFF00;*/
+    flex-grow: 1;
+    text-align: center;    
+    padding: 1em;    
+}
+#contenedor_cacaos_usuario{
+    /*background-color: #0000FF;*/
+    flex-grow: 1;
+    text-align: center;    
+    padding: 1em;
+}
+#contenedor_equipo_usuario{
+    /*background-color: #FF0000;*/
+    flex-grow: 1;    
+    text-align: center;    
+    padding: 1em;
+}
