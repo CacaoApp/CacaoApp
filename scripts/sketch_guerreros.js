@@ -41,7 +41,7 @@ refGuerreros.on('value', function (snapshot) {
       break;
     }
     let enlaceJugador = "/jugador.html?cid="+value.id;
-    node.innerHTML = "<a class=\"text-dark\" href=\""+  enlaceJugador +"\"> <div class=\"list-group-item list-group-item-action\">" + "<b>" + value.nombres+" "+value.apellidos+ "</b>"+" ("+ value.grupo +")"+ "<span class=\" ml-3 \" ><img width=50px src=\""+imagenlink+"\"></span>" + "</div></a>";
+    node.innerHTML = "<a class=\"text-dark\" href=\""+  enlaceJugador +"\"> <div class=\"list-group-item list-group-item-action\">" + "<b>" + value.nombres+" "+value.apellidos+ "</b>"+" ("+ value.grupo +")"+ "<br/><span class=\" ml-3 \" ><img width=50px src=\""+imagenlink+"\"></span>" + "</div></a>";
     document.getElementById("list_warriors").appendChild(node);
   });
 });
