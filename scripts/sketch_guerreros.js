@@ -40,7 +40,7 @@ refGuerreros.on('value', function (snapshot) {
         imagenlink = "assets/team_icons/chapolin_icon.png"
       break;
     }
-    let enlaceJugador = "/site/jugador.html?cid="+value.id;
+    let enlaceJugador = "/jugador.html?cid="+value.id;
     node.innerHTML = "<a class=\"text-dark\" href=\""+  enlaceJugador +"\"> <div class=\"list-group-item list-group-item-action\">" + "<b>" + value.nombres+" "+value.apellidos+ "</b>"+" ("+ value.grupo +")"+ "<span class=\" ml-3 \" ><img width=50px src=\""+imagenlink+"\"></span>" + "</div></a>";
     document.getElementById("list_warriors").appendChild(node);
   });
