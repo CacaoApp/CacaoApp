@@ -1,6 +1,7 @@
 @font-face {
     font-family: HurryUp;
     src: url(../assets/hurryup.ttf);
+    src: url(../assets/hurryup.woff);
  }
 
  :root {
