@@ -3,5 +3,5 @@ var identificador = url.searchParams.get("cid");
 if (identificador === null) {
   console.log("SIMPLE URL");
 } else {
-    location.href = "/site/jugador.html?cid=" + identificador;
+    location.href = "/jugador.html?cid=" + identificador;
 }
