@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="styles/custom_style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>-->
     <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
-    <script src="scripts/sketch.js"></script>
+    <!--<script src="scripts/sketch.js"></script>-->
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ft-hurry">
 
             <a class="navbar-brand" href="https://cacaoapp.github.io/"><img src="assets/cacaoapp_icon.png" width="40"
-                height="40" class="d-inline-block align-content-center" alt="">CACAO GAME</a>
+                    height="40" class="d-inline-block align-content-center" alt="">CACAO GAME</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,11 +56,205 @@
             </div>
         </nav>
     </header>
+    <!--<div id="sketch-holder"></div>-->
 
-    <section>
-        <div id="sketch-holder"></div>
+    <section class="container-fluid">
+        <h1 class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border">
+            EQUIPOS</h1>
     </section>
 
+    <section class="container">
+        <nav class="text-center justify-content-around p-3">
+            <span><a href="#"><button class="btn btn-dark ">Coate</button></a></span>
+            <span><a href="#"><button class="btn btn-dark ">Huitizlin</button></a></span>
+            <span><a href="#"><button class="btn btn-dark ">Mazate</button></a></span>
+            <span><a href="#"><button class="btn btn-dark ">Michin</button></a></span>
+        </nav>
+    </section>
+
+    <!-- CONTENEDOR TARJETAS EQUIPOS-->
+    <section class="container">
+
+        <div class="row">
+
+            <!-- EQUIPO 1-->
+            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3 p-1">
+                <div class="card-title">
+                    <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Coate</h3>
+                </div>
+                <div class="card-body  p-1">
+                    <img src="assets/team_images/coate_team.png" alt="imagen_equipo" width="90%">
+                    <table class="table ft-hurry mt-3">
+                        <thead>
+                            <tr class="ca-bg-color-dark-gray text-light">
+                                <th class="h4" scope="col">Cacaos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-yellow text-light">
+                                <td>
+                                    <span id="contenedor_cacaos_equipo_1_span">0</span>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <thead>
+                            <tr class="ca-bg-color-green text-light">
+                                <th class="h4" scope="col">Integrantes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-lime text-light">
+                                <td>
+                                    <div id="contenedor_integrantes_equipo_1">
+                                        <ul class="list-unstyled list-group" id="lista_integrantes_equipo_1">
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- EQUIPO 2-->
+            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
+                <div class="card-title">
+                    <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Huitizlin</h3>
+                </div>
+                <div class="card-body  p-1">
+                    <img id="imagen_equipo_usuario" src="assets/team_images/huitzilin_team.png" alt="imagen_equipo"
+                        width="90%">
+                    <table class="table ft-hurry mt-3">
+                        <thead>
+                            <tr class="ca-bg-color-dark-gray text-light">
+                                <th class="h4" scope="col">Cacaos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-yellow text-light">
+                                <td>
+                                    <span id="contenedor_cacaos_equipo_2_span">0</span>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <thead>
+                            <tr class="ca-bg-color-green text-light">
+                                <th class="h4" scope="col">Integrantes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-lime text-light">
+                                <td>
+                                    <div id="contenedor_integrantes_equipo_1">
+                                        <ul class="list-unstyled list-group" id="lista_integrantes_equipo_2">
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- EQUIPO 3-->
+            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
+                <div class="card-title">
+                    <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Mazate</h3>
+                </div>
+                <div class="card-body  p-1">
+                    <img src="assets/team_images/mazate_team.png" alt="imagen_equipo" width="90%">
+                    <table class="table ft-hurry mt-3">
+                        <thead>
+                            <tr class="ca-bg-color-dark-gray text-light">
+                                <th class="h4" scope="col">Cacaos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-yellow text-light">
+                                <td>
+                                    <span id="contenedor_cacaos_equipo_3_span">0</span>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <thead>
+                            <tr class="ca-bg-color-green text-light">
+                                <th class="h4" scope="col">Integrantes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-lime text-light">
+                                <td>
+                                    <div id="contenedor_integrantes_equipo_1">
+                                        <ul class="list-unstyled list-group" id="lista_integrantes_equipo_3">
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- EQUIPO 4-->
+            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
+                <div class="card-title">
+                    <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Michin</h3>
+                </div>
+                <div class="card-body p-1">
+                    <img src="assets/team_images/michin_team.png" alt="imagen_equipo" width="90%">
+                    <table class="table ft-hurry mt-3">
+                        <thead>
+                            <tr class="ca-bg-color-dark-gray text-light">
+                                <th class="h4" scope="col">Cacaos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-yellow text-light">
+                                <td>
+                                    <span id="contenedor_cacaos_equipo_4_span">0</span>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <thead>
+                            <tr class="ca-bg-color-green text-light">
+                                <th class="h4" scope="col">Integrantes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="ca-bg-color-lime text-light">
+                                <td>
+                                    <div id="contenedor_integrantes_equipo_1">
+                                        <ul class="list-unstyled list-group" id="lista_integrantes_equipo_4">
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
+                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <!-- Footer -->
     <footer class="container-fluid page-footer font-small blue pt-4">
         <!-- Footer Links -->
