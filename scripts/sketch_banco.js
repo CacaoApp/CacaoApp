@@ -48,7 +48,7 @@ var textoActivado;
 var imagenesActivado;
 ////////////////////////////////////////
 
-let nTeams = 5;
+let nTeams = 4;
 
 var config = {
   apiKey: "AIzaSyDj1Ao1CQpZa0t5UO2V1LhgCM6kqE1xPcA",
