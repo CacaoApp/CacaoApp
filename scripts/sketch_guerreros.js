@@ -10,7 +10,7 @@ firebase.initializeApp(config);
 
 var refGuerreros = firebase.database().ref('estudiantes');
 refGuerreros.on('value', function (snapshot) {
-  snapshot.forEach(function (childSnapshot) {{}
+  snapshot.forEach(function (childSnapshot) {
     var value = childSnapshot.val();
     var node = document.createElement("li");    
     node.className = "warrior_item_list"; 

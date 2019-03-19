@@ -13,7 +13,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>-->
     <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
-    <!--<script src="scripts/sketch.js"></script>-->
+
 </head>
 
 <body>
@@ -58,17 +58,17 @@
     </header>
     <!--<div id="sketch-holder"></div>-->
 
-    <section class="container-fluid">
+    <section class="container">
         <h1 class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border">
             EQUIPOS</h1>
     </section>
 
     <section class="container">
-        <nav class="text-center justify-content-around p-3">
-            <span><a href="#"><button class="btn btn-dark ">Coate</button></a></span>
-            <span><a href="#"><button class="btn btn-dark ">Huitizlin</button></a></span>
-            <span><a href="#"><button class="btn btn-dark ">Mazate</button></a></span>
-            <span><a href="#"><button class="btn btn-dark ">Michin</button></a></span>
+        <nav class="text-center  p-3 ft-hurry align-content-around">
+            <a class="text-light" href="#coate_team"><span class="btn btn-dark col-lg-2 col-sm-5 mt-3">Coate</span></a>
+            <a class="text-light" href="#huitzilin_team"><span class="btn btn-dark col-lg-2 col-sm-5 mt-3">Huitizlin</span></a>
+            <a class="text-light" href="#mazate_team"><span class="btn btn-dark col-lg-2 col-sm-5 mt-3">Mazate</span></a>
+            <a class="text-light" href="#michin_team"><span class="btn btn-dark col-lg-2 col-sm-5 mt-3">Michin</span></a>
         </nav>
     </section>
 
@@ -78,7 +78,7 @@
         <div class="row">
 
             <!-- EQUIPO 1-->
-            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3 p-1">
+            <div id="coate_team" class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3 p-1">
                 <div class="card-title">
                     <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Coate</h3>
                 </div>
@@ -108,10 +108,12 @@
                                 <td>
                                     <div id="contenedor_integrantes_equipo_1">
                                         <ul class="list-unstyled list-group" id="lista_integrantes_equipo_1">
-                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
-                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
-                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
-                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                            <!--
+                                                <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                                <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
+                                                <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
+                                                <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                            -->
                                         </ul>
                                     </div>
                                 </td>
@@ -122,7 +124,7 @@
             </div>
 
             <!-- EQUIPO 2-->
-            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
+            <div id="huitzilin_team" class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
                 <div class="card-title">
                     <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Huitizlin</h3>
                 </div>
@@ -153,10 +155,11 @@
                                 <td>
                                     <div id="contenedor_integrantes_equipo_1">
                                         <ul class="list-unstyled list-group" id="lista_integrantes_equipo_2">
-                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                            <!-- <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                            -->
                                         </ul>
                                     </div>
                                 </td>
@@ -167,7 +170,7 @@
             </div>
 
             <!-- EQUIPO 3-->
-            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
+            <div id="mazate_team" class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
                 <div class="card-title">
                     <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Mazate</h3>
                 </div>
@@ -197,10 +200,11 @@
                                 <td>
                                     <div id="contenedor_integrantes_equipo_1">
                                         <ul class="list-unstyled list-group" id="lista_integrantes_equipo_3">
-                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                            <!-- <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                            -->
                                         </ul>
                                     </div>
                                 </td>
@@ -210,7 +214,7 @@
                 </div>
             </div>
             <!-- EQUIPO 4-->
-            <div class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
+            <div id="michin_team" class="card text-center shadow col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-3 mb-3  p-1">
                 <div class="card-title">
                     <h3 class="card-header ft-hurry text-light ca-bg-color-orange">Michin</h3>
                 </div>
@@ -240,10 +244,11 @@
                                 <td>
                                     <div id="contenedor_integrantes_equipo_1">
                                         <ul class="list-unstyled list-group" id="lista_integrantes_equipo_4">
-                                            <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
+                                            <!-- <li class="list-group-item text-light ca-bg-color-lime border-0">Sultano</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Mengano</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Perencejo</li>
                                             <li class="list-group-item text-light ca-bg-color-lime border-0">Biruñas</li>
+                                            -->
                                         </ul>
                                     </div>
                                 </td>
@@ -277,7 +282,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
+    <script src="scripts/sketch_equipos.js"></script>
 </body>
 
 </html>
