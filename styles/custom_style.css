@@ -100,10 +100,10 @@
 /* shadows style*/
 
 .ca-text-shadow-white{
-   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+   text-shadow: 1px 1px rgba(255, 255, 255, 0.5) !important;
 }
 
 .ca-text-shadow-black{
-   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+   text-shadow: 1px 1px rgba(0, 0, 0, 0.5) !important;
 }
 
