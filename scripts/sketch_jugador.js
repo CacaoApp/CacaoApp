@@ -70,8 +70,27 @@ if (identificador === null) {
       let value = childSnapshot.val();
       let propietario = value.propietario;
        if(propietario === identificador){
-          let nodoNuevaActividad = document.createElement("li");      
-          nodoNuevaActividad.innerText = value.descripcionMotivo;
+          let nodoNuevaActividad = document.createElement("li");
+
+          let nodoFecha = document.createElement("span");
+          let nodoDescripcion = document.createElement("span");
+          let nodoValor = document.createElement("span");
+          nodoFecha.innerText = value.fecha + " / " ;
+          nodoDescripcion.innerText = value.descripcionMotivo+ " / ";
+          let accion = "*";
+          switch(value.AccionDeCambio){
+            case "REMOVE":
+              accion = "-";
+            break;
+            case "ADD":
+              accion = "+";
+            break;
+          }
+          // TODO STYLE TEXT FOR BETTER READING AND FEEDBACK GOOD/BAD
+          nodoValor.innerText = accion+""+ value.cantidadCambio+" " + value.objetoDeCambio+"";
+          nodoNuevaActividad.appendChild(nodoFecha);
+          nodoNuevaActividad.appendChild(nodoDescripcion);
+          nodoNuevaActividad.appendChild(nodoValor);
           listaActividadesJugador.appendChild(nodoNuevaActividad);
         }
     });    
