@@ -95,3 +95,15 @@
 .ca-bg-color-light-skin{
    background-color: var(--cacao-light-skin-color);
 }
+
+
+/* shadows style*/
+
+.ca-text-shadow-white{
+   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.ca-text-shadow-black{
+   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+

@@ -55,4 +55,25 @@ if (identificador === null) {
       nodeGrupo.innerText = valueGrupo.nombre;
     });
   });
+
+  var refActividades = firebase.database().ref('actividades');
+  var listaActividadesJugador = document.getElementById("lista_actividades_usuario");
+  refActividades.on('value', function (snapshot) {
+   
+    if(snapshot.numChildren()>0){
+      listaActividadesJugador.innerHTML = "";
+    }else{
+      listaActividadesJugador.innerHTML = "<li>No tiene actividades registradas aún</li>";
+    }
+        
+    snapshot.forEach(function (childSnapshot) {
+      let value = childSnapshot.val();
+      let propietario = value.propietario;
+       if(propietario === identificador){
+          let nodoNuevaActividad = document.createElement("li");      
+          nodoNuevaActividad.innerText = value.descripcionMotivo;
+          listaActividadesJugador.appendChild(nodoNuevaActividad);
+        }
+    });    
+  });
 }
