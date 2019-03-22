@@ -50,7 +50,7 @@ if (identificador === null) {
     var refEquipoJugador = firebase.database().ref('grupos/' + value.grupo);
     refEquipoJugador.on('value', function (snapshotGrupo) {
       var valueGrupo = snapshotGrupo.val();
-      nodePuntos.innerText = valueGrupo.cantidadPuntos;
+      nodePuntos.innerText = value.puntosIndividuales
       nodeCacaos.innerText = valueGrupo.cantidadCacaos;
       nodeGrupo.innerText = valueGrupo.nombre;
     });
