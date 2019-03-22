@@ -5,7 +5,6 @@ var config = {
     storageBucket: "cacaoapp-f9f17.appspot.com",
     messagingSenderId: "390201177541"
 };
-
 firebase.initializeApp(config);
 
 var cacaosCoate = 0;
