@@ -1,24 +1,19 @@
 {
-  "grupos": {
-    "Coate": {
-      "cantidadCacaos": 10000,
-      "cantidadPuntos": 15600,
-      "nombre": "Coate"
-    },
+  "grupos": {    
     "Huitzilin": {
       "cantidadCacaos": 10000,
-      "cantidadPuntos": 15800,
+      "cantidadPuntos": 0,
       "nombre": "Huitzilin"
     },
     "Mazate": {
-      "cantidadCacaos": 9200,
-      "cantidadPuntos": 15000,
+      "cantidadCacaos": 10000,
+      "cantidadPuntos": 0,
       "nombre": "Mazate"
     },
-    "Michín": {
-      "cantidadCacaos": 9200,
-      "cantidadPuntos": 15600,
-      "nombre": "Michín"
+    "Michin": {
+      "cantidadCacaos": 10000,
+      "cantidadPuntos": 0,
+      "nombre": "Michin"
     }
   },
   "retos": {
