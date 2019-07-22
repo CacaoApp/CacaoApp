@@ -1,4 +1,4 @@
-const COATE_TEAM = 0;
+//const COATE_TEAM = 0;
 const HUITZILIN_TEAM = 1;
 const MAZATE_TEAM = 2;
 const MICHIN_TEAM = 3;
@@ -82,14 +82,14 @@ firebase.initializeApp(config);
 function preload() {
   font = loadFont("assets/hurryup.ttf", activarTextos);
 
-  imgCoate = loadImage("assets/team_icons/coate_icon.png");
+  //imgCoate = loadImage("assets/team_icons/coate_icon.png");
   imgHuitzilin = loadImage("assets/team_icons/huitzilin_icon.png");
   imgMazate = loadImage("assets/team_icons/mazate_icon.png");
   imgMichin = loadImage("assets/team_icons/michin_icon.png");
   imgOcelote = loadImage("assets/team_icons/ocelote_icon.png");
   imgTlacuache = loadImage("assets/team_icons/tlacuache_icon.png");
   // TODO UPDATE REFERENCES FOR SIMPLE MANAGE OF IMAGES // OOP REQUIERED
-  teamImages[COATE_TEAM] = loadImage("assets/team_icons/coate_icon.png");
+  //teamImages[COATE_TEAM] = loadImage("assets/team_icons/coate_icon.png");
   teamImages[HUITZILIN_TEAM] = loadImage("assets/team_icons/huitzilin_icon.png");
   teamImages[MAZATE_TEAM] = loadImage("assets/team_icons/mazate_icon.png");
   teamImages[MICHIN_TEAM] = loadImage("assets/team_icons/mazate_icon.png");
