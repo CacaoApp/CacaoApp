@@ -6,10 +6,6 @@ let nameTeamDiv03 = document.getElementById("bank-team-03");
 let nameTeamMoneyDiv03 = document.getElementById("bank-team-money-03");
 console.log(nameTeamDiv01);
 
-nameTeamDiv01.innerText = "Huitzilin";
-nameTeamDiv02.innerText = "Mazate";
-nameTeamDiv03.innerText = "Michin";
-
 
 //const COATE_TEAM = 0;
 const HUITZILIN_TEAM = 1;
@@ -214,21 +210,21 @@ function updateFromFirebase() {
   let refGruposHuitzilin = firebase.database().ref('grupos/Huitzilin/cantidadCacaos');
   refGruposHuitzilin.on('value', function (snapshot) {
     puntosHuitzilin = snapshot.val();
-    nameTeamMoneyDiv01.innerText = "$"+puntosHuitzilin;
+    nameTeamMoneyDiv01.innerText = puntosHuitzilin;
     updatePositions();
   });
 
   let refGruposMazate = firebase.database().ref('grupos/Mazate/cantidadCacaos');
   refGruposMazate.on('value', function (snapshot) {
     puntosMazate = snapshot.val();
-    nameTeamMoneyDiv02.innerText = "$"+puntosMazate;
+    nameTeamMoneyDiv02.innerText = puntosMazate;
     updatePositions();
   });
 
   let refGruposMichin = firebase.database().ref('grupos/Michin/cantidadCacaos');
   refGruposMichin.on('value', function (snapshot) {
     puntosMichin = snapshot.val();
-    nameTeamMoneyDiv03.innerText = "$"+puntosMichin;
+    nameTeamMoneyDiv03.innerText = puntosMichin;
     updatePositions();
   });
 
