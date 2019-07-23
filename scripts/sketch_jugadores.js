@@ -10,7 +10,7 @@ window.addEventListener('load',function() {
   
   firebase.initializeApp(config);
   
-  let refGuerreros = firebase.database().ref('estudiantes');
+  let refGuerreros = firebase.database().ref('estudiantes').orderByChild("grupo");
   refGuerreros.on('value', function (snapshot) {
     snapshot.forEach(function (childSnapshot) {
       let value = childSnapshot.val();
@@ -43,7 +43,7 @@ window.addEventListener('load',function() {
         break;
       }
       let enlaceJugador = "/jugador.html?cid="+value.id;
-      node.innerHTML = "<a class=\"text-dark\" href=\""+  enlaceJugador +"\"> <div class=\"list-group-item list-group-item-action\">" + "<b>" + value.nombres+" "+value.apellidos+ "</b>"+" ("+ value.grupo +")"+ "<br/><span class=\" ml-3 \" ><img width=50px src=\""+imagenlink+"\"></span>" + "</div></a>";
+      node.innerHTML = "<a class=\"text-dark\" href=\""+  enlaceJugador +"\"> <div class=\"list-group-item list-group-item-action\">" + "<b>" + value.nombres+" "+value.apellidos+ "</b>"+"<br>("+ value.grupo +")"+ "<span class=\" ml-3 \" ><img width=50px src=\""+imagenlink+"\"></span>" + "</div></a>";
       document.getElementById("list_warriors").appendChild(node);
     });
   });
