@@ -12,8 +12,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
-    <script src="scripts/sketch_puntos.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>    
 </head>
 
 <body>
@@ -64,9 +63,30 @@
         <h1 class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border">
             PUNTOS POR EQUIPO</h1>
     </section>
-    <section>
-        <div id="sketch-holder"></div>
-    </section>
+
+    <section class="align-content-center row mt-auto justify-content-around mt-3 text-center ft-hurry ml-3 mr-3">
+
+            <div class="card col-xl-3 col-lg-3 col-md-12 mt-3 shadow p-0">
+                <div id="rank-team-01" class="card-header text-light ca-bg-color-orange">...</div>
+                <img class="m-auto" src="assets/team_icons/huitzilin_icon.png">
+                <div id="rank-team-money-01" class="card-body h2">0</div>
+                <div class="h5">Puntos ganados</div>
+            </div>
+    
+            <div class="card col-xl-3 col-lg-3 col-md-12 mt-3 shadow p-0">
+                <div id="rank-team-02" class="card-header text-light ca-bg-color-orange">...</div>
+                <img class="m-auto" src="assets/team_icons/mazate_icon.png">
+                <div id="rank-team-money-02" class="card-body h2">0</div>
+                <div class="h5">Puntos ganados</div>
+            </div>
+    
+            <div class="card col-xl-3 col-lg-3 col-md-12 mt-3 shadow p-0">
+                <div id="rank-team-03" class="card-header text-light ca-bg-color-orange">...</div>
+                <img class="m-auto" src="assets/team_icons/michin_icon.png">
+                <div id="rank-team-money-03" class="card-body h2">0</div>
+                <div class="h5">Puntos ganados</div>
+            </div>    
+        </section>   
 
     <!-- Footer -->
     <footer class="container-fluid page-footer font-small blue pt-4">
@@ -90,6 +110,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="scripts/sketch_puntos.js"></script>
 
 </body>
 

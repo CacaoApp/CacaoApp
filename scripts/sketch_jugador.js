@@ -48,8 +48,8 @@ window.addEventListener('load',function() {
       nodeImagenEquipo.setAttribute("src", pathToImage );  
       let refEquipoJugador = firebase.database().ref('grupos/' + value.grupo);
       refEquipoJugador.on('value', function (snapshotGrupo) {
-        let valueGrupo = snapshotGrupo.val();
-        nodePuntos.innerText = value.puntosIndividuales
+        let valueGrupo = snapshotGrupo.val();        
+        nodePuntos.innerText = parseInt(value.puntosIndividuales) + parseInt(valueGrupo.cantidadPuntos);
         nodeCacaos.innerText = valueGrupo.cantidadCacaos;
         nodeGrupo.innerText = valueGrupo.nombre;
       });
