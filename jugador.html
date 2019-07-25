@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JUGADOR : CACAO GAME</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/custom_style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -20,31 +20,32 @@
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ft-hurry">
 
-            <a class="navbar-brand" href="https://cacaoapp.github.io/"><img src="assets/cacaoapp_icon.png" width="40"
-                height="40" class="d-inline-block align-content-center" alt="">CACAO GAME</a>
+            <a class="navbar-brand ca-text-shadow-black" href="https://cacaoapp.github.io/"><img
+                    src="assets/cacaoapp_icon.png" width="40" height="40" class="d-inline-block align-content-center"
+                    alt="">CACAO GAME</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav ca-text-shadow-black">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">inicio</a>
+                            <a class="nav-link " href="index.html">inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="reglas.html">reglas <span class="sr-only">(current)</span> </a>
+                            <a class="nav-link" href="reglas.html">reglas</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="facilitadores.html">facilitadores</a>
-                            </li>
+                            <a class="nav-link" href="facilitadores.html">facilitadores</a>
+                        </li>
                     </div>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown ca-text-shadow-black">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             competencia
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -63,21 +64,24 @@
 
     <!-- INICIO CONTENIDO JUGADOR -->
     <section class="container">
-        <h1 class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border ca-text-shadow-white">
+        <h1
+            class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border ca-text-shadow-white">
             JUGADOR</h1>
     </section>
 
     <section class="container" id="seccion_jugador">
         <article class="card text-center contenedor_tarjeta_usuario mt-3 shadow">
-            <div class="card-header h1 ft-hurry text-light ca-bg-color-orange ca-text-shadow-black" id="contenedor_fila_nombre">
+            <div class="card-header h1 ft-hurry text-light ca-bg-color-orange ca-text-shadow-black"
+                id="contenedor_fila_nombre">
                 <span id="contenedor_nombre_usuario">cargando...</span>
                 <span id="contenedor_apellido_usuario">cargando...</span>
             </div>
             <div class="card-body">
                 <div class="card-text h2" id="contenedor_estadisticas_usuario">
-                    <div class="card-img " id="contenedor_imagen_equipo_usuario"><img id="imagen_equipo_usuario" src="assets/team_images/mazate_team.png"
-                            alt="imagen_equipo" width="15%"></div>
-                    <div class="card-text h3 ft-hurry" id="contenedor_equipo_usuario"><span id="contenedor_equipo_usuario_span">cargando...</span></div>
+                    <div class="card-img " id="contenedor_imagen_equipo_usuario"><img id="imagen_equipo_usuario"
+                            src="assets/team_images/mazate_team.png" alt="imagen_equipo" width="15%"></div>
+                    <div class="card-text h3 ft-hurry" id="contenedor_equipo_usuario"><span
+                            id="contenedor_equipo_usuario_span">cargando...</span></div>
                 </div>
             </div>
             <table class="table ft-hurry">
@@ -98,12 +102,25 @@
                     </tr>
                 </tbody>
             </table>
-        </article>        
+        </article>
+    </section>
+
+    <!-- LOGROS E INSIGNIAS DEL JUGADOR -->
+    <section class="container">
+        <h1
+            class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border ca-text-shadow-white">
+            Logros y medallas</h1>
+        <article class="card contenedor_tarjeta_usuario shadow">
+            <ul id="lista_insignias_usuario" class="list-unstyled p-4 justify-content-around">
+                <li>No tiene medallas ni logros aún</li>
+            </ul>
+        </article>
     </section>
 
     <!-- ESTADISTICAS JUGADOR -->
     <section class="container">
-        <h1 class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border ca-text-shadow-white">
+        <h1
+            class="card h3 card-header text-center ft-hurry ca-bg-color-yellow p-4 mt-3 shadow border ca-text-shadow-white">
             Registro de Actividades</h1>
         <article class="card contenedor_tarjeta_usuario shadow">
             <ul id="lista_actividades_usuario" class="list-unstyled p-4 justify-content-around">
@@ -131,12 +148,15 @@
     <!-- Footer -->
 
     <!-- INICIO SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <script src="scripts/sketch_jugador.js"></script>
 </body>
 
