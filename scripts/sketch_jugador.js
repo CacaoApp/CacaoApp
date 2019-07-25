@@ -109,9 +109,16 @@ window.addEventListener('load', function () {
           if (propietario === identificador) {
             nodoSesion.innerText = value.sesion + " > ";
             nodoTitulo.innerText = value.titulo + " :) (Logro) ";
+
+            let nodoIcono = document.createElement("img");
+            nodoIcono.src = "assets/medalla_icon_50.png";
+            
             nodoNuevaActividad.appendChild(nodoSesion);
             nodoNuevaActividad.appendChild(nodoTitulo);
+            nodoNuevaActividad.appendChild(nodoIcono);                        
+            
             listaInsigniasJugador.appendChild(nodoNuevaActividad);
+
             algunaInsignia = true;
           }
         });
